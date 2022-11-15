@@ -1,11 +1,11 @@
 <template>
-  <h1>Home</h1>
+  <HomeTemplate />
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 
 export default Vue.extend({
-  name: 'IndexPage',
+  layout: 'ibook',
 })
 </script>

@@ -2,7 +2,7 @@
   <footer class="mainfooter">
     <Container>
       <MainLogo />
-      <p>&copy; {{ currentYear }} - Hugo Furtado</p>
+      <p>Hugo Furtado, <br>{{ currentYear }} </p>
     </Container>
   </footer>
 </template>

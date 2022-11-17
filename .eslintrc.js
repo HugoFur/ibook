@@ -13,5 +13,6 @@ module.exports = {
   // add your custom rules here
   rules: {
     'import/named': 0,
+    'vue/no-v-html': 0
   },
 }

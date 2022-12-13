@@ -4,7 +4,7 @@
 > Desafio aplicado no Bootcamp Cataline
 
 - Frontend concluido :ok_hand:
-- Api em desenvolvimento :writing_hand:
+- Deploy fake api :ok_hand:
 
 ---
 

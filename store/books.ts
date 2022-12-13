@@ -31,13 +31,13 @@ export default class Books extends VuexModule {
 
   @Action
   public async index() {
-    const books = await $axios.$get('https://honey-intriguing-mandarin.glitch.me/books')
+    const books = await $axios.$get('/books')
     this.context.commit('SET_ALL', books)
   }
 
   @Action
   public async show(payload: Show) {
-    const book = await $axios.$get(`https://honey-intriguing-mandarin.glitch.me/books/${payload.id}`)
+    const book = await $axios.$get(`/books/${payload.id}`)
     this.context.commit('SET_SINGLE', book)
   }
 }

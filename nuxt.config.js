@@ -44,7 +44,7 @@ export default {
   },
 
   axios: {
-    baseURL: 'http://localhost:3333',
+    baseURL: 'https://honey-intriguing-mandarin.glitch.me',
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules

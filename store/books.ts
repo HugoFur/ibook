@@ -3,7 +3,7 @@ import { Book } from '~/Models'
 import { $axios } from '~/utils/nuxt-instance'
 
 interface Show {
-  id: Book['id']             // forma de acessar chave
+  id: Book['id'] // forma de acessar chave
 }
 
 @Module({ name: 'books', stateFactory: true, namespaced: true })

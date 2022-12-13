@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+import Vue from 'vue'
 
 export default Vue.extend({
   props: {
@@ -18,7 +18,7 @@ export default Vue.extend({
       required: true,
     },
   },
-});
+})
 </script>
 
 <style lang="scss" scoped>
@@ -26,12 +26,12 @@ export default Vue.extend({
   text-align: center;
   font-size: 2.5rem;
   font-weight: 500;
-  @include screen("small", "medium") {
+  @include screen('small', 'medium') {
     grid-template-columns: 1fr;
     font-size: 1.8rem;
   }
   b {
-    color: color("dark", "darkest");
+    color: color('dark', 'darkest');
   }
 }
 </style>

@@ -1,6 +1,10 @@
 <template>
   <div class="book-categories">
-    <chip v-for="category in $book.categories" :key="category.id" :text="category.name"/>
+    <chip
+      v-for="category in $book.categories"
+      :key="category.id"
+      :text="category.name"
+    />
   </div>
 </template>
 
@@ -9,7 +13,7 @@ import Vue from 'vue'
 import { books } from '~/store'
 
 export default Vue.extend({
-    computed: {
+  computed: {
     $book() {
       return books.$single
     },

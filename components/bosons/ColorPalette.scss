@@ -3,12 +3,12 @@
 $colors: (
   light: (
     base: #f7f7f7,
-    darkest: #f0f0f0
+    darkest: #f0f0f0,
   ),
   dark: (
     base: #7e7a7a,
-    darkest: #292929
-  )
+    darkest: #292929,
+  ),
 ) !default;
 
 @function color($color, $complementary: null) {

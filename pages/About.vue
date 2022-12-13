@@ -3,13 +3,13 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
-import AboutTemplate from "~/components/templates/AboutTemplate.vue";
+import Vue from 'vue'
+import AboutTemplate from '~/components/templates/AboutTemplate.vue'
 
 export default Vue.extend({
   components: { AboutTemplate },
-  layout: "ibook",
-});
+  layout: 'ibook',
+})
 </script>
 
 <style scoped></style>

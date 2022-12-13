@@ -1,12 +1,12 @@
 # iBook
+
 > Aplicação web de uma plataforma de leitura de livros, desenvolvida em VueJs e Nuxt.<br>
 > Desafio aplicado no Bootcamp Cataline
 
- - Frontend concluido  :ok_hand:
- - Api em desenvolvimento  :writing_hand:	
- ***
+- Frontend concluido :ok_hand:
+- Api em desenvolvimento :writing_hand:
 
-
+---
 
 ### Build Setup
 
@@ -24,4 +24,3 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
-
